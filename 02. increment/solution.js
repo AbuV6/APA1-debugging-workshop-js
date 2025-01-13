@@ -1,5 +1,5 @@
 function increment(n) {
-  return n++;
+  return ++n;
 }
 
 module.exports = { increment };
@@ -7,4 +7,4 @@ module.exports = { increment };
 // Remember to check the expected behaviour of this program first
 // Then call the function to check how it is actually working...
 
-// Write some comments down below with your findings... 
+// Write some comments down below with your findings...
